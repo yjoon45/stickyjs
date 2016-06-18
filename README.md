@@ -1,3 +1,3 @@
-# Stickyjs
+# Sticky
 
 Stick the elemnt

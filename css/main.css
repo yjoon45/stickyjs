@@ -1,0 +1,52 @@
+/* Reset things */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  background: #fff;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.5em;
+  color: #232323;
+}
+
+/* layout */
+.container {
+  max-width: 1170px;
+  margin: 50px auto;
+  position: relative;
+}
+
+/* clearfixing */
+.container::before,
+.container::after {
+  content: '';
+}
+
+.container::after {
+  clear: both;
+  display: table;
+}
+
+.content {
+  float: left;
+  width: 75%;
+  padding: 10px 15px;
+}
+
+.right {
+  width: 25%;
+  margin-right: 0;
+  float: right;
+}
+
+.news {
+  padding: 20px 15px;
+  background: #f4f7f8;
+}
